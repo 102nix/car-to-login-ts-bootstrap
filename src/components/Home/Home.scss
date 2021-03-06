@@ -1,0 +1,133 @@
+.carousel{
+  overflow: hidden;
+  background-color: rgb(232, 236, 241);
+  box-shadow: 7px 9px 11px rgb(8, 8, 8);
+  border-radius: 3px;
+  margin: 0 auto;
+}
+.carousel-item{
+  img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+   }
+}
+.common-info{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.block-info{
+  margin-top: 40px;
+  font-size: 13px;
+}
+.info-common{
+  margin-top: 5px;
+  display: flex;
+  flex-direction: column;
+  width: 100;
+}
+.title-info{
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+.row_info{
+  display: flex;
+  justify-content: space-between;
+  line-height: 16px;
+}
+.row_info:nth-child(odd){
+  background-color: rgb(224, 219, 219);
+}
+
+@media (max-width: 1024px){
+  .carousel{
+    max-width: 100%;
+    height: 590px;
+    top: 0;
+    left: auto;
+  }
+  .carousel-item{
+    img{
+      max-width: 100%;
+      height: 590px;
+      display: block;
+     }
+  }
+}
+@media (max-width: 768px){
+  .carousel{
+    max-width: 100%;
+    height: 500px;
+    top: 0;
+    left: auto;
+  }
+  .carousel-item{
+    img{
+      max-width: 100%;
+      height: 500px;
+      display: block;
+     }
+  }
+}
+@media (max-width: 414px){
+  h2{
+    font-size: 18px;
+  }
+  .home-page .col-12{
+    padding-left: 15px;
+  }
+  .carousel{
+    max-width: 100%;
+    height: 300px;
+    top: 0;
+    left: auto;
+  }
+  .carousel-item{
+    img{
+      max-width: 100%;
+      height: 300px;
+      display: block;
+     }
+  }
+}
+@media (max-width: 375px){
+  h2{
+    font-size: 16px;
+  }
+  .home-page .col-12{
+    padding-left: 15px;
+  }
+  .carousel{
+    max-width: 100%;
+    height: 270px;
+    top: 0;
+    left: auto;
+  }
+  .carousel-item{
+    img{
+      max-width: 100%;
+      height: 270px;
+      display: block;
+     }
+  }
+}
+@media (max-width: 320px){
+  h2{
+    font-size: 16px;
+  }
+  .carousel{
+    max-width: 100%;
+    height: auto;
+    left: auto;
+    top: 0;
+  }
+  .carousel-item{
+    img{
+      max-width: 100%;
+      height: auto;
+      display: block;
+     }
+  }
+}

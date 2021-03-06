@@ -1,0 +1,36 @@
+.add-content{
+  padding: 10px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.add-content form{
+  width: 450px;
+}
+.from-group{
+  margin: 10px 0;
+  box-shadow: 3px 5px 11px #b1b0b0;
+}
+textarea#text{
+  overflow: hidden;
+  height: 200px;
+}
+textarea#price{
+  overflow: hidden;
+  height: 100px;
+}
+.add-content .add-action{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+@media(max-width: 414px){
+  .add-content form{
+    width: 250px;
+  }
+}
+
+
+

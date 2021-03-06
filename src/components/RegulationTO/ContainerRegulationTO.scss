@@ -1,0 +1,25 @@
+.title-regulation-to{
+  font-weight: bold;
+}
+.goto-back-forward{
+  color: #000;
+  font-weight: bold;
+  font-size: 31px;
+  padding: 0 5px;
+  border-radius: 3px;
+  transition: .7s;
+  cursor: pointer;
+  &:hover{
+    box-shadow: 3px 5px 10px rgb(67, 68, 67);
+    transition: .5s;
+  }
+}
+.current-page{
+  font-weight: bold;
+  font-size: 21px;
+}
+@media (max-width: 767px){
+  .h-all-to{
+    font-size: 13px;
+  }
+}

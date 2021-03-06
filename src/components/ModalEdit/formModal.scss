@@ -1,0 +1,24 @@
+.modal-content{
+  top: 150px;
+  padding: 35px;
+}
+textarea#text{
+  overflow: hidden;
+  height: 200px;
+}
+textarea#price{
+  overflow: hidden;
+  height: 100px;
+}
+.modal-action{
+  margin-top: 15px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.form-control{
+  transform: scale(1);
+  transition: all .4s;
+  &:focus{
+    transform: scale(1.2);
+  }
+}

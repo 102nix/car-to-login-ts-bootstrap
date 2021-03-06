@@ -1,0 +1,54 @@
+.list-made-to{
+  font-size: 15px;
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+  padding: 10px 5px;
+  border: 1px solid #b1b0b0;
+  border-radius: 4px;
+  box-shadow: 3px 5px 11px #b1b0b0;
+  transform: scale(1);
+  transition: transform .4s;
+  cursor: pointer;
+  &:hover{
+    transform: scale(1.05);
+  }
+}
+.title-made{
+  padding: 0 3px;
+  text-align: center;
+  line-height: 9px;
+  .odometr{
+    font-size: 18px;
+  }
+}
+.text-made, .price-made{
+  padding: 0 1.5px;
+  text-align: center;
+  font-size: 15px;
+  p{
+    line-height: 1.5;
+  }
+}
+.link-to-recharts{
+  text-align: center;
+  padding: 10px;
+  width: 25%;
+  margin: 25px auto 0 auto;
+  display: block;
+  box-shadow: 3px 5px 11px #b1b0b0;
+  color: #000;
+  &:hover{
+    transition: 0.5s;
+    box-shadow: 5px 7px 21px #8d8d8d;
+  }
+}
+@media (max-width: 1200px){
+  .title-made{
+    .odometr{
+      margin-top: 10px;
+      font-size: 15px;
+      font-weight: bold;
+    }
+  }
+}
