@@ -1,14 +1,11 @@
-import { combineReducers, createStore, applyMiddleware } from 'redux';
-import allToReducer from './allToReducer';
-import loginReducer from './loginReducer';
-import thunkMiddleware from 'redux-thunk';
-import {reducer as formReducer} from 'redux-form';
-
+import { combineReducers, createStore, applyMiddleware } from 'redux'
+import allToReducer from './allToReducer'
+import loginReducer from './loginReducer'
+import thunkMiddleware from 'redux-thunk'
 
 let rootReducer = combineReducers({
   allToReducer,
-  loginReducer,
-  form: formReducer
+  loginReducer
 })
 
 type RootReducerType = typeof rootReducer
